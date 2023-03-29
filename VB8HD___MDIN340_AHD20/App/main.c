@@ -568,7 +568,7 @@ int main(void)
 		VideoProcessHandler();	// video process handler
 		VideoHTXCtrlHandler();	// video HDMI-TX handler
 
-//		git_test_5th
+//		git_test_sixth
 
 //		KJY_TRIGGER_CTRL();
 //		KJY_AUTO_SCAN_CTRL();
