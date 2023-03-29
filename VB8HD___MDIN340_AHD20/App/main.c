@@ -547,6 +547,7 @@ int main(void)
 	KJY_UART2_VARIABLE_INIT();
 	KJY_UART2_RETRY_CLEAR();
 	KJY_LED_R_INIT();
+
 	
 	printf("\r\n");
 	printf("-----------------------------------------------\r\n");
@@ -571,7 +572,7 @@ int main(void)
 		KJY_AUTO_SCAN_CTRL();
 //		KJY_SEND_MLD_REQUEST();
 		debug_main();
-//		KJY_LED_R_CTRL();
+		KJY_LED_R_CTRL();			//2 [ JYKIM 2023-3-29]		GIT TEST
 	}
 }
 
