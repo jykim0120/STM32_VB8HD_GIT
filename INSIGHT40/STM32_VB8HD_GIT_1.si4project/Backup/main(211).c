@@ -567,14 +567,16 @@ int main(void)
 
 		VideoProcessHandler();	// video process handler
 		VideoHTXCtrlHandler();	// video HDMI-TX handler
-
-//		git_test_4th
-
-//		KJY_TRIGGER_CTRL();
+		KJY_TRIGGER_CTRL();
 //		KJY_AUTO_SCAN_CTRL();
 //		KJY_SEND_MLD_REQUEST();
-//		debug_main();
-//		KJY_LED_R_CTRL();			//2 [ JYKIM 2023-3-29]		GIT TEST
+<<<<<<< HEAD
+//2 [ JYKIM 2023-3-29]			debug_main();
+//2 [ JYKIM 2023-3-29]			KJY_LED_R_CTRL();			//2 [ JYKIM 2023-3-29]		GIT TEST
+=======
+		debug_main();
+//		KJY_LED_R_CTRL();
+>>>>>>> parent of 1b90bf9 (2nd_commit_test)
 	}
 }
 

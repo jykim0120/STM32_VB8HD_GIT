@@ -998,7 +998,6 @@ void KJY_MSTAR_LOAD_CTRL(void)
 		MSTAR_TRIGGER_READY_FLAG	= 0;
 		KJY_CTRL_FLAG = 1;
 	}
-
 	
 }
 
