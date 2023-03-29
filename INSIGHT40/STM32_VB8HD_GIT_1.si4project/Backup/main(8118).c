@@ -569,7 +569,7 @@ int main(void)
 		VideoProcessHandler();	// video process handler
 		VideoHTXCtrlHandler();	// video HDMI-TX handler
 		KJY_TRIGGER_CTRL();
-//		KJY_AUTO_SCAN_CTRL();
+		KJY_AUTO_SCAN_CTRL();
 //		KJY_SEND_MLD_REQUEST();
 //2 [ JYKIM 2023-3-29]			debug_main();
 //2 [ JYKIM 2023-3-29]			KJY_LED_R_CTRL();			//2 [ JYKIM 2023-3-29]		GIT TEST
